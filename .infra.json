@@ -1,4 +1,5 @@
 {
+	"pub":["group_id","limit"],
 	"app_id":"",
 	"app_secret":"",
 	"limit": 10,

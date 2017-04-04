@@ -1,6 +1,6 @@
 <section class="posts2articles">
 	<style scoped>
-		.posts2articles a {
+		.posts2articles * a {
 			color: inherit;
 			font: inherit;
 			text-decoration: inherit;
@@ -21,6 +21,8 @@
 	</style>
 	<h1>Лента</h1>
 	{data.data::item}
+	<br>
+	Больше на нашем <a href="https://facebook.com/{~conf.posts2articles.groupid}">facebook</a>!
 </section>
 
 {item:} 
