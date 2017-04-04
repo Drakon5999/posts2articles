@@ -22,7 +22,7 @@
 	<h1>Лента</h1>
 	{data.data::item}
 	<br>
-	Больше на нашем <a href="https://facebook.com/{~conf.posts2articles.groupid}">facebook</a>!
+	Больше на нашем <a href="https://facebook.com/{~conf.posts2articles.group_id}">facebook</a>!
 </section>
 
 {item:} 
