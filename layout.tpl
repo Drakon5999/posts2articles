@@ -23,7 +23,6 @@
 {item:} 
 <hr>
 <time datetime="{~date(:Y-m-d,created_time)}">{~date(:j F Y,created_time)}</time>
-<h2>{message}</h2>
-<a href="{link}">{title}</a>
+<h2>{title}</h2>
 
-<p><a href="{link}"><img src="{full_picture}" alt="{title}"></a>{description}<div class="clearfix"></div></p>
+<p><a href="{link}"><img src="{full_picture}" alt="{title}"></a>{message}<br>{description}<div class="clearfix"></div></p>
