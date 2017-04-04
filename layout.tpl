@@ -1,7 +1,9 @@
 <section class="posts2articles">
 	<style scoped>
-		.posts2articles h1 {
-		
+		.posts2articles a {
+			color: inherit;
+			font: inherit;
+			text-decoration: inherit;
 		}
 		.posts2articles h2 {
 			font-size: 15px;
@@ -11,6 +13,7 @@
 			max-height: 100px;
 			vertical-align: top;
 			float: left;
+			margin-right: 5px;
 		}
 		.posts2articles .clearfix {
 			clear: both;
@@ -23,6 +26,6 @@
 {item:} 
 <hr>
 <time datetime="{~date(:Y-m-d,created_time)}">{~date(:j F Y,created_time)}</time>
-<h2>{title}</h2>
+<h2><a href="{link}">{title}</a></h2>
 
-<p><a href="{link}"><img src="{full_picture}" alt="{title}"></a>{message}<br>{description}<div class="clearfix"></div></p>
+<p><a href="{link}"><img src="{full_picture}" alt="{title}"></a><a href="{link}">{message}<br>{description}</a><div class="clearfix"></div></p>
