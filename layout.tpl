@@ -35,4 +35,4 @@
 <time datetime="{~date(:Y-m-d,created_time)}">{~date(:j F Y,created_time)}</time>
 <h2><a href="{link}">{title}</a></h2>
 
-<p><a href="{link}"><img src="{full_picture}" alt="{title}"></a><a href="{link}">{message}<br>{description}</a><div class="clearfix"></div></p>
+<p><a href="{link}"><img src="{full_picture}" alt=""></a><a href="{link}">{message}<br>{description}</a><div class="clearfix"></div></p>
