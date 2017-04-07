@@ -7,6 +7,7 @@
 		}
 		.posts2articles h2 {
 			font-size: 15px;
+			margin: 5px 0;
 		}
 		.posts2articles img {
 			max-width: 100%;
@@ -18,8 +19,12 @@
 		.posts2articles .clearfix {
 			clear: both;
 		}
+		.posts2articles hr {
+			margin:10px 0;
+			padding:0;
+		}
 	</style>
-	<h1>Лента</h1>
+	<{~conf.posts2articles.head_tag}>Лента</{~conf.posts2articles.head_tag}>
 	{data.data::item}
 	<br>
 	Больше на нашем <a href="https://facebook.com/{~conf.posts2articles.group_id}">facebook</a>!

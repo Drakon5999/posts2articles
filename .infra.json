@@ -1,7 +1,8 @@
 {
-	"pub":["group_id","limit"],
-	"app_id":"",
-	"app_secret":"",
+	"pub": ["group_id","limit", "head_tag"],
+	"app_id": "",
+	"app_secret": "",
 	"limit": 10,
-	"group_id":""
+	"group_id": "",
+	"head_tag": "h1"
 }
