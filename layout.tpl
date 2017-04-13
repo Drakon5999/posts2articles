@@ -7,6 +7,7 @@
 		}
 		.posts2articles h2 {
 			font-size: 15px;
+			padding:0;
 			margin: 5px 0;
 		}
 		.posts2articles img {
@@ -35,4 +36,11 @@
 <time datetime="{~date(:Y-m-d,created_time)}">{~date(:j F Y,created_time)}</time>
 <h2><a href="{link}">{title}</a></h2>
 
-<p><a href="{link}"><img src="{full_picture}" alt=""></a><a href="{link}">{message}<br>{description}</a><div class="clearfix"></div></p>
+<p>
+	<a href="{link}"><img src="{full_picture}" alt=""></a>
+	<a href="{link}" style="display:block; margin-top:15px">
+		{message} 
+		<div>{description}</div>
+	</a>
+	<div class="clearfix"></div>
+</p>
