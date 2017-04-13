@@ -20,7 +20,7 @@ $result = $response->getDecodedBody();
 
 foreach ($result['data'] as $key => &$post) {
 	if (isset($post['full_picture'])) {
-		$post['full_picture'] = '/-imager/?src='.urlencode(urlencode($post['full_picture'])).'&h=100';
+		$post['full_picture'] = $post['full_picture'];
 	}
 	if (isset($post['attachments'])) {
 		if (isset($post['attachments']['data'][0]['description']))

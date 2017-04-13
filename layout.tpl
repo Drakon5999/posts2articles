@@ -37,7 +37,10 @@
 <h2><a href="{link}">{title}</a></h2>
 
 <p>
-	<a href="{link}"><img src="{full_picture}" alt=""></a>
+	<a href="{link}">
+		<img src="{full_picture}" style="max-height:100px" alt="">
+
+	</a>
 	<a href="{link}" style="display:block; margin-top:15px">
 		{message} 
 		<div>{description}</div>
