@@ -8,6 +8,7 @@
 		.posts2articles h2 {
 			font-size: 15px;
 			padding:0;
+			font-weight:bold;
 			margin: 5px 0;
 		}
 		.posts2articles img {
